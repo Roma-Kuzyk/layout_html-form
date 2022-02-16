@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <h1>HTML Form</h1>
     <script type="text/javascript" src="./main.js"></script>
 
     <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post">
@@ -21,34 +20,34 @@
         <div class="inputs">
           <label for="surname">Surname:</label>
           <input
-          type="text"
-          name="surname"
-          id="surname"
-          required
-          autocomplete="off"
+            type="text"
+            name="surname"
+            id="surname"
+            required
+            autocomplete="off"
           >
         </div>
 
         <div class="inputs">
           <label for="name">Name:</label>
           <input
-          type="text"
-          name="name"
-          id="name"
-          required
-          autocomplete="off"
+            type="text"
+            name="name"
+            id="name"
+            required
+            autocomplete="off"
           >
         </div>
 
         <div class="inputs">
           <label for="age">How old are You?</label>
           <input
-          type="number"
-          name="age"
-          id="age"
-          min="1"
-          max="100"
-          value="12"
+            type="number"
+            name="age"
+            id="age"
+            min="1"
+            max="100"
+            value="12"
           >
         </div>
 
@@ -68,10 +67,10 @@
         <div class="inputs">
           <label for="e-mail">E-mail:</label>
           <input
-          type="email"
-          name="e-mail"
-          id="e-mail"
-          placeholder="e-mail@example.com"
+            type="email"
+            name="e-mail"
+            id="e-mail"
+            placeholder="e-mail@example.com"
           >
         </div>
 
@@ -90,15 +89,19 @@
               type="radio"
               name="love-cats"
               value="y"
-              id="love-cats-yes"> Yes
+              id="love-cats-yes"
+            >
+            Yes
           </label>
 
           <label for="love-cats-no">
             <input
-            type="radio"
-            name="love-cats"
-            value="n"
-            id="love-cats-no"> No
+              type="radio"
+              name="love-cats"
+              value="n"
+              id="love-cats-no"
+            >
+            No
           </label>
         </div>
 
@@ -109,7 +112,7 @@
         </div>
 
         <div class="inputs">
-          <label for="bed-time"> What is your favorite color?
+          <label for="bed-time"> What time do you go to bed?
             <input type="time" name="bed-time" id="bed-time">
           </label>
         </div>
@@ -125,15 +128,20 @@
 
         <div class="inputs">
           <label for="range">How do you rate our work?
-            <input type="range" name="range" id="range">
+            <input
+              type="range"
+              name="range"
+              id="range"
+              value="0"
+            >
           </label>
         </div>
       </fieldset>
 
       <fieldset class="fieldset">
-        <legend>Additional information</legend>
+        <legend>Comments:</legend>
         <div class="inputs">
-          <label for="feedback"> Add your feedback</label>
+          <label for="feedback"> Comments:</label>
           <textarea name="feedback" id="feedback"></textarea>
         </div>
 
